@@ -20,12 +20,16 @@ npm install -g nftp
 nftp <path>
 ```
 
-The first time you run the command it will ask you for the **NFT.STORAGE API KEY**. You can get it over here: https://nft.storage/
-
 Currently NFTP supports two types of uploads:
 
 1. **File upload:** specify the file path
 2. **Folder upload:** specify the path to the folder. (NOTE: NFTP currently does NOT support nested folders, only supports a folder made up of files)
+
+# Authentication
+
+The first time you run the command it will ask you for the **NFT.STORAGE API KEY**. You can get it over here: https://nft.storage/
+
+![auth.gif](auth.gif)
 
 ---
 

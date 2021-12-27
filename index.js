@@ -61,8 +61,9 @@ if (fs.existsSync(keyPath)) {
     message: 'NFT.STORAGE API KEY',
   }]).then((answers) => {
     fs.writeFileSync(keyPath, answers.key)
+    const throbber = ora('uploading').start();
     console.time("upload duration")
-    upload(key, target).then((r) => {
+    upload(answers.key, target).then((r) => {
       throbber.stop();
       render(r)
       console.log("")
