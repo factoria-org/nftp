@@ -1,0 +1,15 @@
+{
+  "name": "nftp",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "nftp": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "ipfsio": "^0.0.5"
+  }
+}
