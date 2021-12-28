@@ -4,6 +4,10 @@ The simplest way to publish files and folders to IPFS, with one command.
 
 100% FREE to upload as much files as you want, powered by [nft.storage](https://nft.storage).
 
+> **NOTE**
+>
+> [NFT.STORAGE](https://nft.storage) is an infrastructure service designed for storing NFT data, so please use it only for storing NFT data.
+
 ![nftp.gif](nftp.gif)
 
 ---
